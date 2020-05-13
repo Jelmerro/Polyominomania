@@ -1,0 +1,4 @@
+__pycache__
+ENV
+venv
+highscores.json

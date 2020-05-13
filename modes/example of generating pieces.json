@@ -1,0 +1,50 @@
+{
+    "description" : "Generating all 7 and 8 sized polyominoes, for proper random and bag distributions.",
+    "polyominoes": {
+        "7": {
+            "next_piece": "random",
+            "colors": "retro",
+            "chance": 7
+        },
+        "8": {
+            "next_piece": "bag",
+            "colors": "bootstrap",
+            "chance": 8
+        }
+    },
+    "scoring": {
+        "polyomino": 10,
+        "lines": {
+            "1": 40,
+            "2": 100,
+            "3": 300,
+            "4": 1200,
+            "5": 2000,
+            "6": 3000,
+            "7": 5000,
+            "8": 8000
+        },
+        "lines_per_level": {
+            "1": 40,
+            "2": 100,
+            "3": 300,
+            "4": 1200,
+            "5": 2000,
+            "6": 3000,
+            "7": 5000,
+            "8": 8000
+        },
+        "softdrop": 1,
+        "harddrop": 2,
+        "level_up": 100
+    },
+    "lines_per_level": 10,
+    "first_level": 1,
+    "speed": 10,
+    "speed_per_level": 10,
+    "width": 30,
+    "height": 30,
+    "next_pieces": 0,
+    "ghost": true,
+    "extra_spacing": false
+}

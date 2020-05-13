@@ -1,0 +1,234 @@
+{
+    "description" : "HUGE level with all possible polyominoes, the smaller the more often they will appear.",
+    "polyominoes": {
+        "1": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 30
+        },
+        "2": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 29
+        },
+        "3": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 28
+        },
+        "4": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 27
+        },
+        "5": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 26
+        },
+        "6": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 25
+        },
+        "7": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 24
+        },
+        "8": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 23
+        },
+        "9": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 22
+        },
+        "10": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 21
+        },
+        "11": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 20
+        },
+        "12": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 19
+        },
+        "13": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 18
+        },
+        "14": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 17
+        },
+        "15": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 16
+        },
+        "16": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 15
+        },
+        "17": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 14
+        },
+        "18": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 13
+        },
+        "19": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 12
+        },
+        "20": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 11
+        },
+        "21": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 10
+        },
+        "22": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 9
+        },
+        "23": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 8
+        },
+        "24": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 7
+        },
+        "25": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 6
+        },
+        "26": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 5
+        },
+        "27": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 4
+        },
+        "28": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 3
+        },
+        "29": {
+            "next_piece": "jit",
+            "colors": "retro",
+            "chance": 2
+        },
+        "30": {
+            "next_piece": "jit",
+            "colors": "bootstrap",
+            "chance": 1
+        }
+    },
+    "scoring": {
+        "polyomino": 5,
+        "lines": {
+            "1": 40,
+            "2": 100,
+            "3": 300,
+            "4": 1200,
+            "5": 2000,
+            "6": 3000,
+            "7": 5000,
+            "8": 10000,
+            "9": 15000,
+            "10": 20000,
+            "11": 30000,
+            "12": 50000,
+            "13": 100000,
+            "14": 100000,
+            "15": 100000,
+            "16": 100000,
+            "17": 100000,
+            "18": 100000,
+            "19": 100000,
+            "20": 100000,
+            "21": 100000,
+            "22": 100000,
+            "23": 100000,
+            "24": 100000,
+            "25": 100000,
+            "26": 100000,
+            "27": 100000,
+            "28": 100000,
+            "29": 100000,
+            "30": 100000
+        },
+        "lines_per_level": {
+            "1": 40,
+            "2": 100,
+            "3": 300,
+            "4": 1200,
+            "5": 2000,
+            "6": 3000,
+            "7": 5000,
+            "8": 10000,
+            "9": 15000,
+            "10": 20000,
+            "11": 30000,
+            "12": 50000,
+            "13": 100000,
+            "14": 100000,
+            "15": 100000,
+            "16": 100000,
+            "17": 100000,
+            "18": 100000,
+            "19": 100000,
+            "20": 100000,
+            "21": 100000,
+            "22": 100000,
+            "23": 100000,
+            "24": 100000,
+            "25": 100000,
+            "26": 100000,
+            "27": 100000,
+            "28": 100000,
+            "29": 100000,
+            "30": 100000
+        },
+        "softdrop": 1,
+        "harddrop": 2,
+        "level_up": 100
+    },
+    "lines_per_level": 10,
+    "first_level": 1,
+    "speed": 10,
+    "speed_per_level": 10,
+    "width": 200,
+    "height": 200,
+    "next_pieces": 4,
+    "ghost": true,
+    "extra_spacing": false
+}

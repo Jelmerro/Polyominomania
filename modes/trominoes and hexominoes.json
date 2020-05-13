@@ -1,0 +1,46 @@
+{
+    "description" : "Bigger level with: ghost block, trominoes, hexominoes and funny colors.",
+    "polyominoes": {
+        "3": {
+            "next_piece": "bag",
+            "colors": "retro",
+            "chance": 1
+        },
+        "6": {
+            "next_piece": "bag",
+            "colors": "bootstrap",
+            "chance": 2
+        }
+    },
+    "scoring": {
+        "polyomino": 5,
+        "lines": {
+            "1": 40,
+            "2": 100,
+            "3": 300,
+            "4": 1200,
+            "5": 2000,
+            "6": 3000
+        },
+        "lines_per_level": {
+            "1": 40,
+            "2": 100,
+            "3": 300,
+            "4": 1200,
+            "5": 2000,
+            "6": 3000
+        },
+        "softdrop": 1,
+        "harddrop": 2,
+        "level_up": 100
+    },
+    "lines_per_level": 10,
+    "first_level": 1,
+    "speed": 10,
+    "speed_per_level": 10,
+    "width": 30,
+    "height": 20,
+    "next_pieces": 4,
+    "ghost": true,
+    "extra_spacing": true
+}

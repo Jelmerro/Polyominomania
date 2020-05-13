@@ -1,0 +1,37 @@
+{
+    "description" : "The original Tetris, with bag random Tetrominoes and classic scoring system.",
+    "polyominoes": {
+        "4": {
+            "next_piece": "bag",
+            "colors": "original",
+            "chance": 1
+        }
+    },
+    "scoring": {
+        "polyomino": 0,
+        "lines": {
+            "1": 40,
+            "2": 100,
+            "3": 300,
+            "4": 1200
+        },
+        "lines_per_level": {
+            "1": 40,
+            "2": 100,
+            "3": 300,
+            "4": 1200
+        },
+        "softdrop": 1,
+        "harddrop": 2,
+        "level_up": 0
+    },
+    "lines_per_level": 10,
+    "first_level": 1,
+    "speed": 10,
+    "speed_per_level": 10,
+    "width": 10,
+    "height": 20,
+    "next_pieces": 1,
+    "ghost": false,
+    "extra_spacing": true
+}
